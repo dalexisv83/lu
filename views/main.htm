@@ -1,0 +1,9 @@
+<div ng-controller="MainCtrl">
+    <div ng-include="'views/header.htm?@@BUSTER@@'"></div>
+    <div class="wrapper">
+         <div class="border">
+            <select ng-model="page" ng-options="tool.url as tool.name for tool in tools"></select>
+             <div height="100%" width="100%" ng-include="'views/' + page + '.htm'"></div>            
+         </div>
+    </div>
+</div>
