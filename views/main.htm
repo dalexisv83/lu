@@ -2,8 +2,17 @@
     <div ng-include="'views/header.htm?@@BUSTER@@'"></div>
     <div class="wrapper">
          <div class="border">
-            <select ng-model="page" ng-options="tool.url as tool.name for tool in tools"></select>
-             <div height="100%" width="100%" ng-include="'views/' + page + '.htm'"></div>            
+             <div class="grid">
+                 <div class="grid__item portable--one-third desk--one-third mainSelect">
+                     <select ng-model="tool" ng-options="tool as tool.name for tool in tools | orderBy:'name'">
+                         <option value="" disabled>What are you looking for?</option>
+                     </select>
+                 </div>
+                 <div class="grid__item portable--two-thirds desk--two-thirds">
+                     <div class="toolText" ng-bind-html="tool.text"></div>
+                 </div>
+             </div>
+             <div height="100%" width="100%" ng-include="'views/' + tool.url + '.htm'"></div>            
          </div>
     </div>
 </div>

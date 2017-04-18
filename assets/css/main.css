@@ -322,6 +322,20 @@ div#sub {
   position: relative;
 }
 
+.mainSelect select {
+    margin-bottom: 24px;
+}
+
+.mainSelect select, .mainSelect option, .dataTables_filter input {
+    height: 30px;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.mainSelect select, .mainSelect option {
+    width: 100%;
+}
+
 .photo {
     vertical-align: bottom;
     margin: 20px 0;
