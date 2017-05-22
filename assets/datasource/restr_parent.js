@@ -16,21 +16,28 @@
     "NATIONAL ACCOUNT": "Abacus System Solutions (old name was CB Restaurants and Eateries)",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Charlie Browns, Sagebrush, Texas S&S, Garcia’s, Garcias, Charlie Brown's, Garfield’s, Garfields, Jr’s, Jimmy’s Egg, Jimmys Egg, Jimmy’s Eggs, Bricktown Brewery, Pepperoni Grill, Poblano’s, Flattire, Lottinville, Three Horse Production, Varsity Grill, Remington Park, Lonestar (Global Gaming), Henry Hudson’s, Henry Hudsons, S&B Burgers",
+    "BRANDS": "Brands: Charlie Browns, Sagebrush, Texas S&S, Garcia&rsquo;s, Garcias, Charlie Brown&rsquo;s, Garfield&rsquo;s, Garfields, Jr&rsquo;s, Jimmy&rsquo;s Egg, Jimmys Egg, Jimmy&rsquo;s Eggs, Bricktown Brewery, Pepperoni Grill, Poblano&rsquo;s, Flattire, Lottinville, Three Horse Production, Varsity Grill, Remington Park, Lonestar (Global Gaming), Henry Hudson&rsquo;s, Henry Hudsons, S&B Burgers",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Amazon",
     "TYPE": "Retal",
     "REASON": "Pending NA contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
+}, {
+    "NATIONAL ACCOUNT": "AMC Theatres",
+    "TYPE": "Theatres",
+    "REASON": "Existing NA contract",
+    "BRANDS": null,
+    "ES Manager": "Price",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "American Blue Ribbon (ABR)",
     "TYPE": "Fine Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "All Brands: Village Inn, Baker's Square, Max and Erma's, Legendary Baking, O'Charley's, 99, J Alexander's and Stoney River",
+    "BRANDS": "All Brands: Village Inn, Baker&rsquo;s Square, Max and Erma&rsquo;s, Legendary Baking, O&rsquo;Charley&rsquo;s, 99, J Alexander&rsquo;s and Stoney River",
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -48,17 +55,10 @@
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "AMC Theatres",
-    "TYPE": "Theatres",
-    "REASON": "Existing NA contract",
-    "BRANDS": "",
-    "ES Manager": "Price",
-    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
-}, {
     "NATIONAL ACCOUNT": "Anheuser-Busch",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -69,10 +69,10 @@
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Anthony's Coal Fired Pizza",
+    "NATIONAL ACCOUNT": "Anthony&rsquo;s Coal Fired Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -86,63 +86,63 @@
     "NATIONAL ACCOUNT": "APPLE AMERICAN GROUP Total",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "APPLE CORE ENTERPRISES INC. Total",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "APPLE GOLD Total",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "APPLE INVESTORS GROUP Total",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Applebees",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Applesauce",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Arbys",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "Arby's",
+    "BRANDS": "Arby&rsquo;s",
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "ARC GROUP (Dick's Wings; Wing Nutz)",
+    "NATIONAL ACCOUNT": "ARC GROUP (Dick&rsquo;s Wings; Wing Nutz)",
     "TYPE": "Casual Dining",
     "REASON": "Existin NA Contract - Dealer Alignment",
-    "BRANDS": "Dick's Wings; Wing Nutz",
+    "BRANDS": "Dick&rsquo;s Wings; Wing Nutz",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Arrow Electronics",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -163,7 +163,7 @@
     "NATIONAL ACCOUNT": "Atlantic Aviation",
     "TYPE": "Aviation",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -177,7 +177,7 @@
     "NATIONAL ACCOUNT": "Ballard Enterprises",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: WOW Café, PJ's Coffee, City Diner, Ole Saint (Deuce McAllister)",
+    "BRANDS": "Brands: WOW Café, PJ&rsquo;s Coffee, City Diner, Ole Saint (Deuce McAllister)",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -205,7 +205,7 @@
     "NATIONAL ACCOUNT": "Bass Pro",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Islamorada Fish Company, Hemingway's, White River Fish House, Blue Fin, Zane Grey, Uncle Buck's",
+    "BRANDS": "Brands: Islamorada Fish Company, Hemingway&rsquo;s, White River Fish House, Blue Fin, Zane Grey, Uncle Buck&rsquo;s",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -216,10 +216,10 @@
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Beef O'Brady's/Brass Tap",
+    "NATIONAL ACCOUNT": "Beef O&rsquo;Brady&rsquo;s/Brass Tap",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Beef O'Brady's, Brass Tap",
+    "BRANDS": "Brands: Beef O&rsquo;Brady&rsquo;s, Brass Tap",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -237,31 +237,31 @@
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Bertucci's",
+    "NATIONAL ACCOUNT": "Bertucci&rsquo;s",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Bertucci's, 2ovens",
+    "BRANDS": "Brands: Bertucci&rsquo;s, 2ovens",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Billy Casper Golf",
     "TYPE": "Golf Course",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "BJ's",
+    "NATIONAL ACCOUNT": "BJ&rsquo;s",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Boston's",
+    "NATIONAL ACCOUNT": "Boston&rsquo;s",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -282,28 +282,28 @@
     "NATIONAL ACCOUNT": "Brinker",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Chili's, Maggiano's",
+    "BRANDS": "Brands: Chili&rsquo;s, Maggiano&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Brunswick",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Buca Di Beppo",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Buffalo Wings & Rings",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -325,7 +325,14 @@
     "TYPE": "QSR",
     "REASON": "NA Contract - Dealer Alignment",
     "BRANDS": "Dunkin Donuts franchisee",
-    "ES Manager": "",
+    "ES Manager": null,
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
+    "NATIONAL ACCOUNT": "Caliber Collision",
+    "TYPE": "Automotive",
+    "REASON": "Existing NA contract",
+    "BRANDS": null,
+    "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "California Pizza Kitchen",
@@ -339,36 +346,36 @@
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
     "BRANDS": "Consolidated Restaurant Operations",
-    "ES Manager": "",
+    "ES Manager": null,
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Captiva MVP Restaurant Partners, LLC (PDQ)",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract - Dealer Alignment",
-    "BRANDS": "PDQ, Lee Roy Selmon's",
-    "ES Manager": "",
+    "BRANDS": "PDQ, Lee Roy Selmon&rsquo;s",
+    "ES Manager": null,
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Carmax",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Carolina Ale House",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "CARSTAR",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Casual Male",
     "TYPE": "Retail",
@@ -380,15 +387,8 @@
     "NATIONAL ACCOUNT": "Cedar Pollo",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Franchisee: Bruegger's Bagels, Bubba's Jacks, Carino's, Famous Dave's, On the Border, Parkstone",
+    "BRANDS": "Franchisee: Bruegger&rsquo;s Bagels, Bubba&rsquo;s Jacks, Carino&rsquo;s, Famous Dave&rsquo;s, On the Border, Parkstone",
     "ES Manager": "Gomes",
-    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
-}, {
-    "NATIONAL ACCOUNT": "Caliber Collision",
-    "TYPE": "Automotive",
-    "REASON": "Existing NA contract",
-    "BRANDS": "",
-    "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Centene Corporation",
@@ -401,28 +401,28 @@
     "NATIONAL ACCOUNT": "Center Cut Hospitality",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Centralized Supply Chain Services",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Champps",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Charles Schwab",
     "TYPE": "Enterprise",
     "REASON": "Pending NA contact",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -436,28 +436,28 @@
     "NATIONAL ACCOUNT": "Chesapeake Bay",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Chili's, On The Border",
+    "BRANDS": "Chili&rsquo;s, On The Border",
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Chevron",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Chuck E Cheese",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "CiCi's Pizza",
+    "NATIONAL ACCOUNT": "CiCi&rsquo;s Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Parent is Cici's Entertainment",
+    "BRANDS": "Parent is Cici&rsquo;s Entertainment",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -478,7 +478,7 @@
     "NATIONAL ACCOUNT": "Creative Artists Agency",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -492,63 +492,63 @@
     "NATIONAL ACCOUNT": "CVS",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Dairy Queen (IDQ)",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Darden",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Bahama Breeze, Eddie V's, Longhorn Steakhouse, Olive Garden, Seasons 52, Synergy, The Capital Grill, Yard House",
+    "BRANDS": "Bahama Breeze, Eddie V&rsquo;s, Longhorn Steakhouse, Olive Garden, Seasons 52, Synergy, The Capital Grill, Yard House",
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Dave & Busters",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Davita",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Deli Management (Jason's Deli)",
+    "NATIONAL ACCOUNT": "Deli Management (Jason&rsquo;s Deli)",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA contract",
-    "BRANDS": "Jason's Deli",
+    "BRANDS": "Jason&rsquo;s Deli",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Dick's Sporting Goods",
+    "NATIONAL ACCOUNT": "Dick&rsquo;s Sporting Goods",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Don Pablo's",
+    "NATIONAL ACCOUNT": "Don Pablo&rsquo;s",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Doros",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "Franchisee: Hardee's, Taco John",
+    "BRANDS": "Franchisee: Hardee&rsquo;s, Taco John",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -559,40 +559,40 @@
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Duffy's Management",
+    "NATIONAL ACCOUNT": "Duffy&rsquo;s Management",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "Duffy's Sports Grill",
+    "BRANDS": "Duffy&rsquo;s Sports Grill",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Eagle Golf",
     "TYPE": "Golf Course",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Earl of Sandwich",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "East Coast Wings",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Equinix",
     "TYPE": "Technology",
     "REASON": "Pending NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Fado Irish Pub & Restaurant",
     "TYPE": "Sports & Specialty Bar",
@@ -601,31 +601,31 @@
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Famous Dave's",
+    "NATIONAL ACCOUNT": "Famous Dave&rsquo;s",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "FedEx",
     "TYPE": "Enterprise",
     "REASON": "Pending NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Ferguson",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Fidelity Investments",
     "TYPE": "Financial",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -636,10 +636,10 @@
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Fired Up Inc (Carino's)",
+    "NATIONAL ACCOUNT": "Fired Up Inc (Carino&rsquo;s)",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -653,51 +653,51 @@
     "NATIONAL ACCOUNT": "Fitness Evolution",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
-    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com "
 }, {
-    "NATIONAL ACCOUNT": "Floyd's 99 Barbershop",
+    "NATIONAL ACCOUNT": "Floyd&rsquo;s 99 Barbershop",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Flying J/ Pilot",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Focus Brands",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA Contract",
-    "BRANDS": "Moe's Southwest Grill. McAlister's Deli, Schlotzsky's, Cinnabon, Auntie Anne's, Carvel",
+    "BRANDS": "Moe&rsquo;s Southwest Grill. McAlister&rsquo;s Deli, Schlotzsky&rsquo;s, Cinnabon, Auntie Anne&rsquo;s, Carvel",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Fox & Hound Group",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Champps Americana, Fox & Hound, Bailey's",
+    "BRANDS": "Brands: Champps Americana, Fox & Hound, Bailey&rsquo;s",
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Fresenius",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Fricker's",
+    "NATIONAL ACCOUNT": "Fricker&rsquo;s",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Front Burner",
     "TYPE": "Sports & Specialty Bar",
@@ -709,35 +709,35 @@
     "NATIONAL ACCOUNT": "Fuddruckers",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Luby's, Fuddrucker's, Cheeseburger in Paradise",
+    "BRANDS": "Brands: Luby&rsquo;s, Fuddrucker&rsquo;s, Cheeseburger in Paradise",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Gameworks",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Jillian's, Sky Deck Lanes, Sportsworld Grill, Gameworks",
+    "BRANDS": "Brands: Jillian&rsquo;s, Sky Deck Lanes, Sportsworld Grill, Gameworks",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Gator Apple",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "GE",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "General Growth Properties",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -751,7 +751,7 @@
     "NATIONAL ACCOUNT": "Giant Eagle",
     "TYPE": "Grocery Chain",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -769,17 +769,17 @@
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Gold's Gym",
+    "NATIONAL ACCOUNT": "Gold&rsquo;s Gym",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Golfsmith",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -797,10 +797,17 @@
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
+    "NATIONAL ACCOUNT": "Grimaldi&rsquo;s Pizzeria",
+    "TYPE": "Casual Dining",
+    "REASON": "NA Contract - Dealer Alignment",
+    "BRANDS": "Parent: Coal Brick Oven Pizzeria, Inc.",
+    "ES Manager": "Watkins",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
     "NATIONAL ACCOUNT": "Ground Round",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -828,35 +835,35 @@
     "NATIONAL ACCOUNT": "High Plains Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Honda Aircraft Company",
     "TYPE": "Enterprise",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Hooters",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Hospitality USA",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Baker Street, British Beverage Co, D'Amico's Italian Café, Local Pour, Sherlock's Pub & Grill, Sherlock's Pub, Watson's House of Ales",
+    "BRANDS": "Baker Street, British Beverage Co, D&rsquo;Amico&rsquo;s Italian Café, Local Pour, Sherlock&rsquo;s Pub & Grill, Sherlock&rsquo;s Pub, Watson&rsquo;s House of Ales",
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Host Intl/HMS HOST/Auto Grill",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "300 Brands: 99 Turnpike travel Centers, 85+ Airport locations (Sample of brands in the airport: Heinken Bar, Sam Adam's bar",
+    "BRANDS": "300 Brands: 99 Turnpike travel Centers, 85+ Airport locations (Sample of brands in the airport: Heinken Bar, Sam Adam&rsquo;s bar",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -891,11 +898,11 @@
     "NATIONAL ACCOUNT": "Islands",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "J Alexander's",
+    "NATIONAL ACCOUNT": "J Alexander&rsquo;s",
     "TYPE": "Fine Dining",
     "REASON": "Existing NA contract - Dealer Alignment",
     "BRANDS": "Stoney River - Dealer Alignment Option 5",
@@ -905,42 +912,56 @@
     "NATIONAL ACCOUNT": "J.B. Hunt",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "J.P. Morgan Chase & Co.",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "JD Byrider",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Jersey Mikes Subs",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
+    "NATIONAL ACCOUNT": "Jiffy Lube",
+    "TYPE": "Automotive",
+    "REASON": "Existing NA Contract - Dealer Alignment",
+    "BRANDS": "Jiffy Lube",
+    "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Just Brakes",
     "TYPE": "Automotive",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
+    "NATIONAL ACCOUNT": "K1 Speed",
+    "TYPE": "Entertainment",
+    "REASON": "Existing NA Contract",
+    "BRANDS": null,
+    "ES Manager": null,
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Kaufmann Tire",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -951,52 +972,52 @@
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Kohl's",
+    "NATIONAL ACCOUNT": "Kohl&rsquo;s",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Kona Grill",
     "TYPE": "Fine Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Kroger",
     "TYPE": "Grocery Chain",
     "REASON": "Pending - NA contract",
-    "BRANDS": "Kroger, Dillons, Fred Meyer, Fry's, QFC, Ralph's, Smith's, Harris Teeter, Food 4 Less, City Marker, Gerbes",
+    "BRANDS": "Kroger, Dillons, Fred Meyer, Fry&rsquo;s, QFC, Ralph&rsquo;s, Smith&rsquo;s, Harris Teeter, Food 4 Less, City Marker, Gerbes",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "LA Fitness",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Lamppost Pizza",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Landry's",
+    "NATIONAL ACCOUNT": "Landry&rsquo;s",
     "TYPE": "Fine Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "ALL 40+ Brands are restricted: Landry's Seafood, Morton's, Saltgrass, Kemah, Claim Jumper, McComick & Schmicks, Golden Nugget, Chart House, The Boathouse, Vic & Anthony's, Oceanaire, Simms Steakhouse, Rainforest Café, Grotto, Harlow's, The Crab House, Cadillac Bar, Brenners, Bubba Gump, Rusty Pelican, She by Mortons, Babinas, Aquarium, Downtown Aquarium, Babin’s, Big Fish, Boardwalk Fantasea, Charley’s Crab, Brenner’s, Fish Tales, Fishermen’s Wharf, The Flying Dutchman, Gandy Dancer, Grand Concourse, Grotto, Harlow's, Kemah Boardwalk, La Griglia, Lillie's Asian Cuisine, Mastro's Restaurants, Mia Tai, Meriwether's, Muer Seafood Restaurants, Peohe's, Pleasure Pier, Red Sushi, River Crab / Blue Water Inn, Rusty Pelican, Saltgrass Steak House, Simms Steakhouse, T-REX, Tower of the Americas, Willie G's, Yak & Yeti See http://www.landrysinc.com/#/page/1 for a list of the Brands",
+    "BRANDS": "ALL 40+ Brands are restricted: Landry&rsquo;s Seafood, Morton&rsquo;s, Saltgrass, Kemah, Claim Jumper, McComick & Schmicks, Golden Nugget, Chart House, The Boathouse, Vic & Anthony&rsquo;s, Oceanaire, Simms Steakhouse, Rainforest Café, Grotto, Harlow&rsquo;s, The Crab House, Cadillac Bar, Brenners, Bubba Gump, Rusty Pelican, She by Mortons, Babinas, Aquarium, Downtown Aquarium, Babin&rsquo;s, Big Fish, Boardwalk Fantasea, Charley&rsquo;s Crab, Brenner&rsquo;s, Fish Tales, Fishermen&rsquo;s Wharf, The Flying Dutchman, Gandy Dancer, Grand Concourse, Grotto, Harlow&rsquo;s, Kemah Boardwalk, La Griglia, Lillie&rsquo;s Asian Cuisine, Mastro&rsquo;s Restaurants, Mia Tai, Meriwether&rsquo;s, Muer Seafood Restaurants, Peohe&rsquo;s, Pleasure Pier, Red Sushi, River Crab / Blue Water Inn, Rusty Pelican, Saltgrass Steak House, Simms Steakhouse, T-REX, Tower of the Americas, Willie G&rsquo;s, Yak & Yeti  See http://www.landrysinc.com/#/page/1 for a list of the Brands",
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Lazy Dog Cafe",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1010,7 +1031,7 @@
     "NATIONAL ACCOUNT": "Life Time Fitness",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1024,7 +1045,7 @@
     "NATIONAL ACCOUNT": "Little Greek Restaurants",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1035,38 +1056,38 @@
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Logan's Roadhouse",
+    "NATIONAL ACCOUNT": "Logan&rsquo;s Roadhouse",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Long John Silver's (Alliance Cost Containment)",
+    "NATIONAL ACCOUNT": "Long John Silver&rsquo;s (Alliance Cost Containment)",
     "TYPE": "QSR",
     "REASON": "NA Contract - Dealer Alignment",
-    "BRANDS": "Long John Silver's",
+    "BRANDS": "Long John Silver&rsquo;s",
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Loves Truck Center",
     "TYPE": "Business Viewing",
     "REASON": "Existing NA Contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "MAACO",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
-    "NATIONAL ACCOUNT": "Macy's",
+    "NATIONAL ACCOUNT": "Macy&rsquo;s",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Macy's, Bloomingdale's",
+    "BRANDS": "Brands: Macy&rsquo;s, Bloomingdale&rsquo;s",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1080,28 +1101,28 @@
     "NATIONAL ACCOUNT": "Mellow Mushroom",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Men's Wearhouse",
+    "NATIONAL ACCOUNT": "Men&rsquo;s Wearhouse",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Men's Wearhouse, Jos. A Bank",
+    "BRANDS": "Brands: Men&rsquo;s Wearhouse, Jos. A Bank",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Miller's Ale House",
+    "NATIONAL ACCOUNT": "Miller&rsquo;s Ale House",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Mongolian Operating Company",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1112,10 +1133,10 @@
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Mountain Mike's Pizza",
+    "NATIONAL ACCOUNT": "Mountain Mike&rsquo;s Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1126,31 +1147,38 @@
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
+    "NATIONAL ACCOUNT": "National Golf Course Owners Association (NGCOA)",
+    "TYPE": "Golf",
+    "REASON": "Existing NA contract",
+    "BRANDS": "NGCOA member list of golf courses.",
+    "ES Manager": "Bifulco",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
     "NATIONAL ACCOUNT": "Native Grill and Wings",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA Contract - Dealer Alignment",
     "BRANDS": "Native New Yorker ; Native New Yorker Grill and Wings; Native Grill and Wings",
-    "ES Manager": "",
+    "ES Manager": null,
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "NB Handy's",
+    "NATIONAL ACCOUNT": "NB Handy&rsquo;s",
     "TYPE": "Retail",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Neiman Marcus",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "NIHCA - National Independent Healthclub Association",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA Contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1164,9 +1192,9 @@
     "NATIONAL ACCOUNT": "Northern Trust",
     "TYPE": "Financial",
     "REASON": "Pending NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "NPC",
     "TYPE": "Casual Dining",
@@ -1182,52 +1210,52 @@
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "O'Charley's/ABR",
+    "NATIONAL ACCOUNT": "O&rsquo;Charley&rsquo;s/ABR",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "All Brands: Village Inn, Baker's Square, Max and Erma's, Legendary Baking, O'Charley's, J Alexander's, Stoney River",
+    "BRANDS": "All Brands: Village Inn, Baker&rsquo;s Square, Max and Erma&rsquo;s, Legendary Baking, O&rsquo;Charley&rsquo;s, J Alexander&rsquo;s, Stoney River",
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Old National",
     "TYPE": "Financial",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Old Spaghetti Factory, Inc.",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "On the Border",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Outback Steakhouse",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Outback Steakhouse, Bonefish Grill, Carrabba's Italian Grill, Flemings, Roy's, Lee Roy Selman's",
+    "BRANDS": "Outback Steakhouse, Bonefish Grill, Carrabba&rsquo;s Italian Grill, Flemings, Roy&rsquo;s, Lee Roy Selman&rsquo;s",
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Pacific Dental",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Pappas",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Pappadeaux, Pappa's BBQ, Pappasito's, Pappa's Burgers, Pappa's Bros, Yia Yia Mary's, Pappa's Seafood House, Dot,",
+    "BRANDS": "Brands: Pappadeaux, Pappa&rsquo;s BBQ, Pappasito&rsquo;s, Pappa&rsquo;s Burgers, Pappa&rsquo;s Bros, Yia Yia Mary&rsquo;s, Pappa&rsquo;s Seafood House, Dot,",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1255,14 +1283,14 @@
     "NATIONAL ACCOUNT": "Pilot / Flying J",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Planet Fitness",
     "TYPE": "Fitness / Spa",
-    "REASON": "Pending NA contract",
-    "BRANDS": "",
+    "REASON": "Existing NA contract",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1273,31 +1301,38 @@
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Popeye's",
+    "NATIONAL ACCOUNT": "Pollo Campero",
+    "TYPE": "FC",
+    "REASON": "Existing NA contract",
+    "BRANDS": "Pollo Campero",
+    "ES Manager": "Rukas",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
+    "NATIONAL ACCOUNT": "Popeye&rsquo;s",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Popeye's Louisiana Kitchen, Popeye's Chicken & Biscuits",
+    "BRANDS": "Brands: Popeye&rsquo;s Louisiana Kitchen, Popeye&rsquo;s Chicken & Biscuits",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Posado's Café, Inc.",
-    "TYPE": "Casual Dining",
-    "REASON": "Existing NA Contract - Dealer Alignment",
-    "BRANDS": "Posado's Cafe, Happy Fish House, Mercados",
+    "NATIONAL ACCOUNT": "Posado&rsquo;s Café, Inc.",
+    "TYPE": "Casual Dining",
+    "REASON": "Existing NA Contract - Dealer Alignment",
+    "BRANDS": "Posado&rsquo;s Cafe, Happy Fish House, Mercados",
     "ES Manager": "Bifulco",
-    "ACTION": "This account is a Restricted National Account with an existing National contract.  Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+    "ACTION": "This account is a Restricted National Account with an existing National contract.  Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Progressive Insurance Co",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Quaker Steak & Lube - Best Wings",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1311,7 +1346,7 @@
     "NATIONAL ACCOUNT": "Quality Restaurant Concept",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1325,21 +1360,21 @@
     "NATIONAL ACCOUNT": "Raymond James",
     "TYPE": "Financial",
     "REASON": "Pending NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Real Mex",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Acapulco, Chevy's, El Torito, El Torito Grill",
+    "BRANDS": "Acapulco, Chevy&rsquo;s, El Torito, El Torito Grill",
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Red Lobster",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1353,7 +1388,7 @@
     "NATIONAL ACCOUNT": "Regus Corporation (Propety Mgmnt)",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1367,28 +1402,28 @@
     "NATIONAL ACCOUNT": "Roark Capital",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Roma Corp (Tony Roma's)",
+    "NATIONAL ACCOUNT": "Roma Corp (Tony Roma&rsquo;s)",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Tony Roma's",
+    "BRANDS": "Brands: Tony Roma&rsquo;s",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Rosati's Pizza",
+    "NATIONAL ACCOUNT": "Rosati&rsquo;s Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA Contract",
-    "BRANDS": "Brands: Rosati's Pizza; Papa Saverio's",
+    "BRANDS": "Brands: Rosati&rsquo;s Pizza; Papa Saverio&rsquo;s",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Rotolo's Pizzeria",
+    "NATIONAL ACCOUNT": "Rotolo&rsquo;s Pizzeria",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1409,21 +1444,21 @@
     "NATIONAL ACCOUNT": "Rush Enterprises",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Russo's Pizza",
+    "NATIONAL ACCOUNT": "Russo&rsquo;s Pizza",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Scottrade",
     "TYPE": "Financial",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1431,8 +1466,8 @@
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA contract",
     "BRANDS": "Excel Rehabilitation, Health Motivation Center, Health South, Hurrle Orthopedic Physical Therapy, Joyner Sports medicine, Kessler Rehabilitation, Kessler Rehabilitation Center, KORT, Metrowest, Miami Orthotics & Prosthetics, Michiana Orthopedic & Sports Physical Therapy, MKJ Physical Therapy, Inc., North Andover Physical Therapy, NovaCare Rehabilitation, Physical Rehab works, ProActive Therapy, Select Evaluation Center, Select Hand Therapy, Select Physical therapy, Sports Orthopedic Rehabilitation Team, Waltham Physical Therapy, Concentra",
-    "ES Manager": "",
-    "ACTION": ""
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Shake Shack",
     "TYPE": "Fast Casual",
@@ -1444,7 +1479,7 @@
     "NATIONAL ACCOUNT": "Sheetz",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1458,14 +1493,14 @@
     "NATIONAL ACCOUNT": "Signature Flight Support Corp",
     "TYPE": "Enterprise",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Sizzler",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1479,28 +1514,28 @@
     "NATIONAL ACCOUNT": "Smokey Bones",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "SnapChat",
     "TYPE": "Technology",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Soaring Wings HQ",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "Ker's WingHouse, Soaring Wings",
+    "BRANDS": "Ker&rsquo;s WingHouse, Soaring Wings",
     "ES Manager": "Bifulco - Dealer Alignment",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Sola Salon",
     "TYPE": "Fitness / Spa",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1514,21 +1549,21 @@
     "NATIONAL ACCOUNT": "Sport Clips",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Subway (IPC)",
     "TYPE": "QSR",
     "REASON": "Existing NA Contract",
-    "BRANDS": "Subway, Aroma Joe's, Dr. Associates, and Taco Del Mar",
+    "BRANDS": "Subway, Aroma Joe&rsquo;s, Dr. Associates, and Taco Del Mar",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "SuperValu",
     "TYPE": "Grocery Chain",
     "REASON": "Pending NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1542,77 +1577,77 @@
     "NATIONAL ACCOUNT": "T.L. Cannon Management Corp.",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "T/A Travel Centers",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Taco Johns",
     "TYPE": "QSR",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "TD Ameritrade",
     "TYPE": "Financial",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Ted's Montana",
+    "NATIONAL ACCOUNT": "Ted&rsquo;s Montana",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Texas Roadhouse",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: Texas Roadhouse, Bubba's 33",
+    "BRANDS": "Brands: Texas Roadhouse, Bubba&rsquo;s 33",
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "TGI Friday's",
+    "NATIONAL ACCOUNT": "TGI Friday&rsquo;s",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "The Greene Turtle",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Thomas and King",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Applebee's",
+    "BRANDS": "Applebee&rsquo;s",
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Tilted Kilt",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Tire Kingdom",
     "TYPE": "Automotive",
     "REASON": "Existing NA contract",
-    "BRANDS": "All Brands: Big O'Tires, National Tire & Battery, Tire Kingdom, Midas and Spee Dee, NTB, Merchant Tire",
+    "BRANDS": "All Brands: Big O&rsquo;Tires, National Tire & Battery, Tire Kingdom, Midas and Spee Dee, NTB, Merchant Tire",
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1623,19 +1658,19 @@
     "ES Manager": "Bifulco - Dealer Alignment",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Toby Keith's I Love this Bar",
+    "NATIONAL ACCOUNT": "Toby Keith&rsquo;s I Love this Bar",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Togo's",
+    "NATIONAL ACCOUNT": "Togo&rsquo;s",
     "TYPE": "Fast Casual",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
     "NATIONAL ACCOUNT": "Tom+Chee Worldwide, LLC",
     "TYPE": "Casual Dining",
@@ -1682,49 +1717,49 @@
     "NATIONAL ACCOUNT": "US Renal Care",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Verizon Wireless",
     "TYPE": "Retail",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "VGM Corp",
     "TYPE": "Golf Course",
     "REASON": "NA Contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Villas Enterprises",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "Brands: The Office Bar & Grill, Steelworks, George & Martha's, and Villa Café, South Philly Steak & Fries, Blackhorse Tavern, Blackhorse Pub, Banana's",
+    "BRANDS": "Brands: The Office Bar & Grill, Steelworks, George & Martha&rsquo;s, and Villa Café, South Philly Steak & Fries, Blackhorse Tavern, Blackhorse Pub, Banana&rsquo;s",
     "ES Manager": "Gomes",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Walmart",
     "TYPE": "Retail",
     "REASON": "Pending NA Contract",
-    "BRANDS": "",
-    "ES Manager": "",
-    "ACTION": ""
+    "BRANDS": null,
+    "ES Manager": null,
+    "ACTION": null
 }, {
-    "NATIONAL ACCOUNT": "Wegman's",
+    "NATIONAL ACCOUNT": "Wegman&rsquo;s",
     "TYPE": "Grocery Chain",
     "REASON": "Existing NA contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Price",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "WellPoint - Caremore",
     "TYPE": "Medical / Dental",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1735,31 +1770,31 @@
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
-    "NATIONAL ACCOUNT": "Wendy's",
+    "NATIONAL ACCOUNT": "Wendy&rsquo;s",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Whipple",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "White Castle",
     "TYPE": "QSR",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Salak",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Wild Wing Café",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA Contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Fontana",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Wings, Etc.",
     "TYPE": "Sports & Specialty Bar",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Rukas",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
@@ -1773,29 +1808,36 @@
     "NATIONAL ACCOUNT": "Wolfgang Puck",
     "TYPE": "Fine Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Grandahl",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "World Gym",
     "TYPE": "Fitness / Spa",
     "REASON": "NA Contract - Dealer Alignment",
-    "BRANDS": "",
-    "ES Manager": "",
+    "BRANDS": null,
+    "ES Manager": null,
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "World of Beer",
     "TYPE": "Bar",
     "REASON": "NA Contract - Dealer Alignment",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "Wow Cafe",
     "TYPE": "Casual Dining",
     "REASON": "Existing NA contract",
-    "BRANDS": "",
+    "BRANDS": null,
     "ES Manager": "Watkins",
+    "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
+}, {
+    "NATIONAL ACCOUNT": "YMCA",
+    "TYPE": "Fitness / Spa",
+    "REASON": "Existing NA Contract - Dealer Alignment",
+    "BRANDS": "YMCA",
+    "ES Manager": "Bifulco",
     "ACTION": "This account is a Restricted National Account with an existing National contract. Please connect them to the National Account Team at 866-949-4504 or email Nationalaccounts@directv.com"
 }, {
     "NATIONAL ACCOUNT": "YouFit, LLC",

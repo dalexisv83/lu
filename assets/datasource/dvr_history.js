@@ -457,5 +457,5 @@
   "Code": 13,
   "Description": "This episode showing was not recorded because it did not match your show type settings in the guide.",
   "Event Status": "CANCELLED",
-  "Notes": "<ul><li>Program may have moved to a different time</li><li>Check the To-Do list list for have customer search for and record program again</li></ul><p>Guide changed - different program found in this timeslot.  The program found in the old program’s time slot does not match the recording criteria</p>"
+  "Notes": "<ul><li>Program may have moved to a different time</li><li>Check the To-Do list list for have customer search for and record program again</li></ul><p>Guide changed - different program found in this timeslot.  The program found in the old program&rsquo;s time slot does not match the recording criteria</p>"
 }]
