@@ -5,7 +5,7 @@
             function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
                 $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
                     return $resource('assets/datasource/mdu_dealer.js').query().$promise;
-                }).withPaginationType('full_numbers');
+                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true);
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('label').withTitle('label').notVisible(),

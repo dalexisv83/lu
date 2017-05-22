@@ -5,7 +5,7 @@
             function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
                 $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
                     return $resource('assets/datasource/acc_type.js').query().$promise;
-                }).withPaginationType('full_numbers');
+                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px");
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('Type').withTitle('Type'),

@@ -3,11 +3,9 @@
     angular.module('lookups')
         .controller('RestrAllCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder',
             function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
-                this.name = 'RestrAllCtrl';
-                console.log(this.name + ' loaded');
                 $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
                     return $resource('assets/datasource/restr_all.js').query().$promise;
-                }).withPaginationType('full_numbers');
+                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px");
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('NATIONAL ACCOUNT').withTitle('National Account'),
