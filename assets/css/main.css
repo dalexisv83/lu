@@ -326,14 +326,60 @@ div#sub {
     margin-bottom: 24px;
 }
 
+.mainSelect select, .dataTables_filter input {
+    border: 1px solid #a9a9a9 !important;
+    border-radius: 0 !important;
+}
+
 .mainSelect select, .mainSelect option, .dataTables_filter input {
-    height: 30px;
+    height: 35px;
     font-size: 20px;
     padding: 0 5px;
 }
 
 .mainSelect select, .mainSelect option {
-    width: 100%;
+    width: calc(100% - 105px);
+}
+
+.dataTables_filter {
+    position: absolute;
+    top: 70px;
+    width: calc(100% - 51px);
+    text-align: left !important;
+}
+
+@media only screen and (min-width: 769px) {
+    .dataTables_filter {
+        width: calc(50% - 37px);
+    }
+}
+
+.dataTables_wrapper {
+    position: static !important;
+}
+
+.dataTables_filter input[type="search"] {
+    width: calc(100% - 116px);
+    margin-left: 0 !important;
+}
+
+.dataTables_filter {
+    float: left !important;
+}
+
+.dataTables_length {
+    float: right !important;
+}
+
+table.dataTable {
+    margin: 0 !important;
+    border-top: none !important;
+}
+
+table.dataTable th {
+    background-color: #e2f3fa;
+    text-align: left;
+    border-bottom: 1px solid white !important;
 }
 
 .photo {
@@ -880,13 +926,17 @@ input.ng-valid.zipinp {
   color: white;
 }
 
-.dataTables_filter {
-    float: left !important;
+.toolText {
+    margin-top: 50px;
 }
 
-.dataTables_length {
-    float: right !important;
+
+@media only screen and (min-width: 769px) {
+    .toolText {
+        margin-top: 0;
+    }
 }
+
 
 .toolText > ul, .toolText > ol {
     margin: 0;
@@ -894,6 +944,13 @@ input.ng-valid.zipinp {
 
 .toolText p {
     margin-top: 0;
+}
+
+.lLabel {
+    display:inline-block;
+    font-weight:normal;
+    margin: 0;
+    width: 100px;
 }
 
 .sk-circle {

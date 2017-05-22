@@ -3,12 +3,13 @@
     <div class="wrapper">
          <div class="border">
              <div class="grid">
-                 <div class="grid__item portable--one-third desk--one-third mainSelect">
+                 <div class="grid__item portable--one-half desk--one-half mainSelect">
+                     <h2 class="lLabel">Data List</h2>
                      <select ng-model="tool" ng-options="tool as tool.name for tool in tools | orderBy:'name'">
                          <option value="" disabled>What are you looking for?</option>
                      </select>
                  </div>
-                 <div class="grid__item portable--two-thirds desk--two-thirds">
+                 <div class="grid__item portable--one-half desk--one-half">
                      <div class="toolText" ng-bind-html="tool.text"></div>
                  </div>
              </div>
