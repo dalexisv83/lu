@@ -1,11 +1,14 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('AccTypeCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
-                $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
-                    return $resource('assets/datasource/acc_type.js').query().$promise;
-                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px");
+        .controller('AccTypeCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS) {
+                $scope.dtOptions = DTOptionsBuilder.newOptions()
+                    .withOption('ajax', {
+                        url: URLS.API_DEV + 'web/api/DataLookup/accounttype',
+                        dataType: 'jsonp',
+                        jsonpCallback: 'jsonCallback'
+                    }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px");
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('Type').withTitle('Type'),

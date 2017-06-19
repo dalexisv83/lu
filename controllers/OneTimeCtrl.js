@@ -1,20 +1,23 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('OneTimeCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
-                $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
-                    return $resource('assets/datasource/one_time_credit.js').query().$promise;
-                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px").withOption("scrollX", true);
+        .controller('OneTimeCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS) {
+                $scope.dtOptions = DTOptionsBuilder.newOptions()
+                    .withOption('ajax', {
+                        url: URLS.API_DEV + 'web/api/DataLookup/onetimecredit',
+                        dataType: 'jsonp',
+                        jsonpCallback: 'jsonCallback'
+                    }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px").withOption("scrollX", true);
 
                 $scope.dtColumns = [
-                    DTColumnBuilder.newColumn('label').withTitle('label').notVisible(),
-                    DTColumnBuilder.newColumn('Credit Name').withTitle('Credit Name').withOption("width", "20%"),
-                    DTColumnBuilder.newColumn('Credit Code').withTitle('Credit Code').withOption('sType', 'numeric').withOption("width", "5%"),
-                    DTColumnBuilder.newColumn('Appropriate Use').withTitle('Appropriate Use').withOption("width", "25%"),
+                    DTColumnBuilder.newColumn('Label').withTitle('label').notVisible(),
+                    DTColumnBuilder.newColumn('CreditName').withTitle('Credit Name').withOption("width", "20%"),
+                    DTColumnBuilder.newColumn('CreditCode').withTitle('Credit Code').withOption('sType', 'numeric').withOption("width", "5%"),
+                    DTColumnBuilder.newColumn('AppropriateUse').withTitle('Appropriate Use').withOption("width", "25%"),
                     DTColumnBuilder.newColumn('Examples').withTitle('Examples').withOption("width", "25%"),
-                    DTColumnBuilder.newColumn('Application Rules').withTitle('Application Rules').withOption("width", "25%"),
-                    DTColumnBuilder.newColumn('rank').withTitle('rank').notVisible()
+                    DTColumnBuilder.newColumn('ApplicationRules').withTitle('Application Rules').withOption("width", "25%"),
+                    DTColumnBuilder.newColumn('Rank').withTitle('rank').notVisible()
                 ];
             }
         ]);

@@ -1,14 +1,13 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('AppOsdCtrl', ['$scope', '$http', 'DTOptionsBuilder', 'DTColumnBuilder',
-            function ($scope, $http, DTOptionsBuilder, DTColumnBuilder) {
+        .controller('AppOsdCtrl', ['$scope', '$http', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
+            function ($scope, $http, DTOptionsBuilder, DTColumnBuilder, URLS) {
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: 'assets/datasource/app_osd.js',
+                        url: URLS.API_DEV + 'web/api/DataLookup/apposd',
                         dataType: 'jsonp',
-                        jsonpCallback: 'jsonCallback',
-                        dataSrc: 'errors'
+                        jsonpCallback: 'jsonCallback'
                     }).withLanguage($scope.searchOpt);
 
                 $scope.dtColumns = [
@@ -17,8 +16,10 @@
                     DTColumnBuilder.newColumn('AAC Troubleshooting').withTitle('MyCSP Troubleshooting').renderWith(function (data, type, full) {
                         if (full['AAC URL']) {
                             return '<a href="' + full['AAC URL'] + '" target="_blank">' + full['AAC Troubleshooting'] + '</a>';
-                        } else {
+                        } else if (full['AAC Troubleshooting']) {
                             return full['AAC Troubleshooting'].replace(/\\\//g, "/");
+                        } else {
+                            return '';
                         }
                     })
                 ];

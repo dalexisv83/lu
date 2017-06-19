@@ -1,11 +1,14 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('DwsIposCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder) {
-                $scope.dtOptions = DTOptionsBuilder.fromFnPromise(function () {
-                    return $resource('assets/datasource/dws_ipos_dealer.js').query().$promise;
-                }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true);
+        .controller('DwsIposCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS) {
+                $scope.dtOptions = DTOptionsBuilder.newOptions()
+                    .withOption('ajax', {
+                        url: URLS.API_DEV + 'web/api/DataLookup/dwsiposdealer',
+                        dataType: 'jsonp',
+                        jsonpCallback: 'jsonCallback'
+                    }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true);
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('Dealer Number').withTitle('Dealer Number').withOption('sType', 'numeric').withOption("width", "12.5%"),
