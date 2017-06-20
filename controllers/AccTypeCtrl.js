@@ -14,9 +14,9 @@
                     DTColumnBuilder.newColumn('Type').withTitle('Type'),
                     DTColumnBuilder.newColumn('Description').withTitle('Description'),
                     DTColumnBuilder.newColumn('Segment').withTitle('Segment'),
-                    DTColumnBuilder.newColumn('Agent Actions').withTitle('Agent Actions'),
+                    DTColumnBuilder.newColumn('AgentActions').withTitle('Agent Actions'),
                     DTColumnBuilder.newColumn('Notes').withTitle('Notes'),
-                    DTColumnBuilder.newColumn('May CLG Disconnect Account?').withTitle('May CLG Disconnect Account?')
+                    DTColumnBuilder.newColumn('MayClgDisconnectAccount').withTitle('May CLG Disconnect Account?')
                 ];
             }
         ]);

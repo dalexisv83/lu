@@ -11,8 +11,8 @@
                     }).withPaginationType('full_numbers').withLanguage($scope.searchOpt);
 
                 $scope.dtColumns = [
-                    DTColumnBuilder.newColumn('code').withTitle('Code'),
-                    DTColumnBuilder.newColumn('name').withTitle('Name')
+                    DTColumnBuilder.newColumn('Code').withTitle('Code'),
+                    DTColumnBuilder.newColumn('Name').withTitle('Name')
                 ];
             }
         ]);

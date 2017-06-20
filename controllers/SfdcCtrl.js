@@ -12,7 +12,7 @@
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('Reason').withTitle('Reason'),
-                    DTColumnBuilder.newColumn('Sub-Reason').withTitle('Sub-Reason'),
+                    DTColumnBuilder.newColumn('SubReason').withTitle('Sub-Reason'),
                     DTColumnBuilder.newColumn('Definition').withTitle('Definition')
                 ];
             }
