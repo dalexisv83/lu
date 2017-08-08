@@ -1,8 +1,8 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('GiftCardCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS', '$http',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS, $http) {
+        .controller('GiftCardCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS', '$http', '$rootScope',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS, $http, $rootScope) {
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
                         url: URLS.API_DEV + 'web/api/DataLookup/giftcard',
@@ -14,9 +14,24 @@
                     DTColumnBuilder.newColumn('Gift').withTitle('Gift Offer Title').renderWith(function(data, type, full) {
                         return '<a href="' + full['Link'] + '" target="_blank">' + full['Gift'] + '</a>';
                     }),
-                    DTColumnBuilder.newColumn('Status').withTitle('Expired?'),
-                    DTColumnBuilder.newColumn('SearchField').withTitle('SearchField').notVisible(),
-                    DTColumnBuilder.newColumn('SearchField1').withTitle('SearchField1').notVisible(),
+                    DTColumnBuilder.newColumn('Expired').withTitle('Expired?').renderWith(function(data, type, full) {
+                        return full['Expired'] ? full['Expired'] : '';
+                    }),
+                    DTColumnBuilder.newColumn('BCode').withOption('name', 'BCode').withTitle('BCode').notVisible().renderWith(function (data, type, full) {
+                        return full['BCode'] ? full['BCode'] : '';
+                    }),
+                    DTColumnBuilder.newColumn('OfferCode').withOption('name', 'OfferCode').withTitle('OfferCode').notVisible().renderWith(function (data, type, full) {
+                        return full['OfferCode'] ? full['OfferCode'] : '';
+                    }),
+                    DTColumnBuilder.newColumn('DealerId').withOption('name', 'DealerId').withTitle('DealerId').notVisible().renderWith(function (data, type, full) {
+                        return full['DealerId'] ? full['DealerId'] : '';
+                    }),
+                    DTColumnBuilder.newColumn('DNIS').withOption('name', 'DNIS').withTitle('DNIS').notVisible().renderWith(function (data, type, full) {
+                        return full['DNIS'] ? full['DNIS'] : '';
+                    }),
+                    DTColumnBuilder.newColumn('YA_Offer').withOption('name', 'YA_Offer').withTitle('YA_Offer').notVisible().renderWith(function (data, type, full) {
+                        return full['YA_Offer'] ? full['YA_Offer'] : '';
+                    }),
                     DTColumnBuilder.newColumn('OfferType').withTitle('Offer Type'),
                     DTColumnBuilder.newColumn('RedemptionType').withTitle('Redemption Type')
                 ];
@@ -30,30 +45,48 @@
                 //});
 
                 $scope.categories = [{
-                    "category": "did",
+                    "category": "DealerId",
                     "label": "Dealer ID"
                 }, {
-                    "category": "ya-offer",
+                    "category": "YA_Offer",
                     "label": "YA Offer #"
                 }, {
-                    "category": "b-code",
+                    "category": "BCode",
                     "label": "B-Code"
                 }, {
-                    "category": "offer-code",
+                    "category": "OfferCode",
                     "label": "Offer Code"
                 }, {
-                    "category": "dnis",
+                    "category": "DNIS",
                     "label": "DNIS"
                 }, {
                     "category": "",
                     "label": "All offer types"
                 }];
 
-                $scope.$watch('category', function () {
+                $scope.changeCat = function () {
                     if ($scope.giftCardInst.DataTable) {
-                        $scope.giftCardInst.DataTable.column(3).search($scope.category).draw();
+                        $rootScope.giftCat = $scope.category;
+                        $scope.giftCardInst.DataTable.draw();
                     }
-                });
+                };
             }
         ]);
 }(window.angular));
+
+app.run(function ($rootScope) {
+    $.fn.dataTable.ext.search.push(
+        function (settings, searchData, index, rowData, counter) {
+            if (settings.ajax.url.indexOf('giftcard') > -1) {
+                if ($rootScope.giftCat && settings.oPreviousSearch.sSearch) {
+                    if (!rowData[$rootScope.giftCat]) {
+                        return false;
+                    }
+                    console.log(rowData.Gift + ": " + rowData[$rootScope.giftCat] + " " + rowData[$rootScope.giftCat].indexOf(settings.oPreviousSearch.sSearch));
+                    return rowData[$rootScope.giftCat].indexOf(settings.oPreviousSearch.sSearch) > -1 ? true : false;
+                }
+            }
+            return true;
+        }
+    );
+});
