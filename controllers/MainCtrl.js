@@ -4,6 +4,7 @@
         .controller('MainCtrl', ['$scope', '$location', '$http', 'pathFinder',
             function ($scope, $location, $http, pathFinder) {
                 $scope.disabled = true;
+                $scope.showSpinner = true;  
                 $scope.loadMain = function() {
                     $http.jsonp(pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/mainctrl?callback=JSON_CALLBACK').then(function successCallback(response) {
                         $scope.init(response);

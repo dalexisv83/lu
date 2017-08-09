@@ -23,10 +23,15 @@ body {
 }
 
 .loader{
+    width:100%;
+    height:100%;
     z-index: 999;
-    position: absolute;    
+    position: absolute;
     background-color: #bbb;
     opacity: 0.5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .loader div{
     height: 128px;
@@ -34,6 +39,8 @@ body {
     background-image: url(../img/marvin-spinner.gif);
     background-repeat: no-repeat;
     position: absolute;
+    top:calc(50% - 64px);
+    left:calc(50% - 64px);
     z-index:1000;
 }
 
