@@ -3,12 +3,16 @@
     angular.module('lookups')
         .controller('GiftCardCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS', '$http', '$rootScope', 'pathFinder',
             function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS, $http, $rootScope, pathFinder) {
+                jQuery( ".loader" ).css("display","");                
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
                         url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/giftcard',
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
-                    }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true);
+                    }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true).withOption('initComplete',function(){
+                            jQuery( ".loader" ).css("display","none");
+                        });
+
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('Gift').withTitle('Gift Offer Title').renderWith(function(data, type, full) {

@@ -3,12 +3,15 @@
     angular.module('lookups')
         .controller('AppOsdCtrl', ['$scope', '$http', 'DTOptionsBuilder', 'DTColumnBuilder', 'pathFinder',
             function ($scope, $http, DTOptionsBuilder, DTColumnBuilder, pathFinder) {
+                jQuery( ".loader" ).css("display","");                
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
                         url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/apposd',
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
-                    }).withLanguage($scope.searchOpt);
+                    }).withLanguage($scope.searchOpt).withOption('initComplete',function(){
+                            jQuery( ".loader" ).css("display","none");
+                        });
 
                 $scope.dtColumns = [
                     DTColumnBuilder.newColumn('ErrorCode').withTitle('Error Code'),
