@@ -1,5 +1,5 @@
 ﻿<div ng-controller="GiftCardCtrl">
-    <select ng-model="category" ng-options="category.category as category.label for category in categories">
+    <select ng-model="category" ng-change="changeCat()" ng-options="category.category as category.label for category in categories">
         <option value="" disabled>Select an offer type</option>
     </select>
     <table class="display" datatable="" dt-options="dtOptions" dt-columns="dtColumns" dt-instance="giftCardInst"></table>
