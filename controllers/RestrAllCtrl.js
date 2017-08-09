@@ -1,11 +1,11 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('RestrAllCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS) {
+        .controller('RestrAllCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'pathFinder',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, pathFinder) {
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: URLS.API_DEV + 'web/api/DataLookup/restrall',
+                        url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/restrall',
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
                     }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption("scrollX", true).withOption("scrollY", "400px");

@@ -1,11 +1,11 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('AppOsdCtrl', ['$scope', '$http', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS',
-            function ($scope, $http, DTOptionsBuilder, DTColumnBuilder, URLS) {
+        .controller('AppOsdCtrl', ['$scope', '$http', 'DTOptionsBuilder', 'DTColumnBuilder', 'pathFinder',
+            function ($scope, $http, DTOptionsBuilder, DTColumnBuilder, pathFinder) {
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: URLS.API_DEV + 'web/api/DataLookup/apposd',
+                        url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/apposd',
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
                     }).withLanguage($scope.searchOpt);

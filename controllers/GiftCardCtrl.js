@@ -1,11 +1,11 @@
 ﻿(function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('GiftCardCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS', '$http', '$rootScope',
-            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS, $http, $rootScope) {
+        .controller('GiftCardCtrl', ['$scope', '$resource', 'DTOptionsBuilder', 'DTColumnBuilder', 'URLS', '$http', '$rootScope', 'pathFinder',
+            function ($scope, $resource, DTOptionsBuilder, DTColumnBuilder, URLS, $http, $rootScope, pathFinder) {
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: URLS.API_DEV + 'web/api/DataLookup/giftcard',
+                        url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/giftcard',
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
                     }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true);
@@ -38,7 +38,7 @@
 
                 $scope.giftCardInst = {};
 
-                //$http.jsonp(URLS.API_DEV + 'web/api/datalookup/GiftCardCat?callback=JSON_CALLBACK').then(function successCallback(response) {
+                //$http.jsonp(pathFinder.getApiNet($scope.network) + 'web/api/datalookup/GiftCardCat?callback=JSON_CALLBACK').then(function successCallback(response) {
                 //    $scope.categories = response.data;
                 //}, function errorCallback(response) {
                 //    throw new Error('Data request failed:\n' + JSON.stringify(response));
