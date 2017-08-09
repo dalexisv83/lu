@@ -67,6 +67,7 @@
                 $scope.changeCat = function () {
                     if ($scope.giftCardInst.DataTable) {
                         $rootScope.giftCat = $scope.category;
+                        $rootScope.giftId = $scope.giftCardInst.id;
                         $scope.giftCardInst.DataTable.draw();
                     }
                 };
@@ -77,7 +78,7 @@
 app.run(function ($rootScope) {
     $.fn.dataTable.ext.search.push(
         function (settings, searchData, index, rowData, counter) {
-            if (settings.ajax.url.indexOf('giftcard') > -1) {
+            if (settings.sTableId == $rootScope.giftId) {
                 if ($rootScope.giftCat && settings.oPreviousSearch.sSearch) {
                     if (!rowData[$rootScope.giftCat]) {
                         return false;
