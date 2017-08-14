@@ -83,8 +83,7 @@ app.run(function ($rootScope) {
                     if (!rowData[$rootScope.giftCat]) {
                         return false;
                     }
-                    console.log(rowData.Gift + ": " + rowData[$rootScope.giftCat] + " " + rowData[$rootScope.giftCat].indexOf(settings.oPreviousSearch.sSearch));
-                    return rowData[$rootScope.giftCat].indexOf(settings.oPreviousSearch.sSearch) > -1 ? true : false;
+                    return rowData[$rootScope.giftCat].toLowerCase().indexOf(settings.oPreviousSearch.sSearch.toLowerCase()) > -1 ? true : false;
                 }
             }
             return true;
