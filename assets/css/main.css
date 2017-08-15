@@ -27,6 +27,10 @@ h2 {
   color: #E97400 !important;
 }
 
+a {
+    color: #009EDB;
+}
+
 #include {
     padding-bottom: 30px;
 }
