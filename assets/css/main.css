@@ -22,76 +22,6 @@ body {
     background-color: #ddd !important;
 }
 
-/*img {
-    width: 100% \9;
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-label:hover span {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-rendering: optimizeLegibility;
-}
-
-h2 {
-    margin: 10px 0;
-    color: #E97400;
-}
-
-h3 {
-    margin: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li ul {
-    list-style-type: disc;
-    padding: 10px 30px;
-    font-size: .95em;
-    line-height: 1.45;
-}
-
-li a, p a {
-    color: #0072ae;
-}
-
-th, td {
-    padding: 6px 10px;
-}
-
-td {
-    border: 1px solid #0072ae;
-}
-
-thead th {
-    color: white;
-    border: 1px solid #E97400;
-    border-bottom: none;
-}
-
-tbody th {
-    background-color: #0072ae;
-    color: white;
-    border: 1px solid #0072ae;
-    text-align: left;
-}*/
-
 h2 {
   font-size: 1.5em !important;
   color: #E97400 !important;
@@ -1073,4 +1003,17 @@ input.ng-valid.zipinp {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #009EDB !important;
+    text-decoration: underline !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    text-decoration: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color: #009EDB;
 }
