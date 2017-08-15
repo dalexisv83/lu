@@ -64,11 +64,20 @@
                     "label": "All offer types"
                 }];
 
+                $scope.prevCat = null;
+
                 $scope.changeCat = function () {
                     if ($scope.giftCardInst.DataTable) {
+                        if ($scope.prevCat != '') {
+                            $scope.giftCardInst.DataTable.column($scope.prevCat + ":name").visible(false, false);
+                        }
+                        if ($scope.category != '') {
+                            $scope.giftCardInst.DataTable.column($scope.category + ":name").visible(true, false);
+                        }
                         $rootScope.giftCat = $scope.category;
                         $rootScope.giftId = $scope.giftCardInst.id;
                         $scope.giftCardInst.DataTable.draw();
+                        $scope.prevCat = $scope.category;
                     }
                 };
             }
