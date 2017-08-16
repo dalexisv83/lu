@@ -17,19 +17,19 @@
                     DTColumnBuilder.newColumn('Expired').withTitle('Expired?').renderWith(function(data, type, full) {
                         return full['Expired'] ? full['Expired'] : '';
                     }),
-                    DTColumnBuilder.newColumn('BCode').withOption('name', 'BCode').withTitle('BCode').notVisible().renderWith(function (data, type, full) {
+                    DTColumnBuilder.newColumn('BCode').withOption('name', 'BCode').withTitle('B-Code').notVisible().renderWith(function (data, type, full) {
                         return full['BCode'] ? full['BCode'] : '';
                     }),
-                    DTColumnBuilder.newColumn('OfferCode').withOption('name', 'OfferCode').withTitle('OfferCode').notVisible().renderWith(function (data, type, full) {
+                    DTColumnBuilder.newColumn('OfferCode').withOption('name', 'OfferCode').withTitle('Offer Code').notVisible().renderWith(function (data, type, full) {
                         return full['OfferCode'] ? full['OfferCode'] : '';
                     }),
-                    DTColumnBuilder.newColumn('DealerId').withOption('name', 'DealerId').withTitle('DealerId').notVisible().renderWith(function (data, type, full) {
+                    DTColumnBuilder.newColumn('DealerId').withOption('name', 'DealerId').withTitle('Dealer Id').notVisible().renderWith(function (data, type, full) {
                         return full['DealerId'] ? full['DealerId'] : '';
                     }),
                     DTColumnBuilder.newColumn('DNIS').withOption('name', 'DNIS').withTitle('DNIS').notVisible().renderWith(function (data, type, full) {
                         return full['DNIS'] ? full['DNIS'] : '';
                     }),
-                    DTColumnBuilder.newColumn('YA_Offer').withOption('name', 'YA_Offer').withTitle('YA_Offer').notVisible().renderWith(function (data, type, full) {
+                    DTColumnBuilder.newColumn('YA_Offer').withOption('name', 'YA_Offer').withTitle('YA Offer #').notVisible().renderWith(function (data, type, full) {
                         return full['YA_Offer'] ? full['YA_Offer'] : '';
                     }),
                     DTColumnBuilder.newColumn('OfferType').withTitle('Offer Type'),
@@ -45,11 +45,8 @@
                 //});
 
                 $scope.categories = [{
-                    "category": "DealerId",
-                    "label": "Dealer ID"
-                }, {
-                    "category": "YA_Offer",
-                    "label": "YA Offer #"
+                    "category": "",
+                    "label": "Search all"
                 }, {
                     "category": "BCode",
                     "label": "B-Code"
@@ -57,13 +54,17 @@
                     "category": "OfferCode",
                     "label": "Offer Code"
                 }, {
+                    "category": "DealerId",
+                    "label": "Dealer ID"
+                }, {
                     "category": "DNIS",
                     "label": "DNIS"
                 }, {
-                    "category": "",
-                    "label": "All offer types"
+                    "category": "YA_Offer",
+                    "label": "YA Offer #"
                 }];
 
+                $scope.category = "";
                 $scope.prevCat = null;
 
                 $scope.changeCat = function () {
