@@ -1,6 +1,11 @@
 ﻿<div ng-controller="GiftCardCtrl">
-    <select ng-model="category" ng-change="changeCat()" ng-options="category.category as category.label for category in categories">
-        <option value="" disabled>Select an offer type</option>
-    </select>
+    <div class="refine">
+        <div class="grid">
+            <div class="grid__item portable--one-half desk--one-half mainSelect">
+                <h2 class="lLabel">Refine</h2>
+                <select ng-model="category" ng-change="changeCat()" ng-options="category.category as category.label for category in categories"></select>
+            </div>
+        </div>
+    </div>
     <table class="display" datatable="" dt-options="dtOptions" dt-columns="dtColumns" dt-instance="giftCardInst"></table>
 </div>

@@ -275,6 +275,10 @@ div#sub {
     width: calc(100% - 105px);
 }
 
+.mainSelect.refine select, .mainSelect.refine option {
+    width: calc(100% - 116px);
+}
+
 .dataTables_filter {
     position: absolute;
     top: 70px;
@@ -282,9 +286,27 @@ div#sub {
     text-align: left !important;
 }
 
+div[ng-controller=GiftCardCtrl] .dataTables_filter {
+    position: absolute;
+    top: 120px;
+    width: calc(100% - 51px);
+    text-align: left !important;
+}
+
+.refine {
+    position: absolute;
+    top: 70px;
+    width: calc(100% - 51px);
+    text-align: left !important;
+}
+
 @media only screen and (min-width: 769px) {
-    .dataTables_filter {
+    div[ng-controller=GiftCardCtrl] .dataTables_filter, .dataTables_filter {
         width: calc(50% - 37px);
+    }
+
+    .mainSelect.refine select, .mainSelect.refine option {
+        width: calc(50% - 128px);
     }
 }
 
@@ -861,7 +883,7 @@ input.ng-valid.zipinp {
 }
 
 .toolText {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 
