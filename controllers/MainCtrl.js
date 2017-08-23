@@ -15,7 +15,7 @@
                     $scope.goHere = function (here) {
                         $location.path(here);
                     }
-                    $scope.searchOpt = { "sSearch": "<h2 class='lLabel'>Lookup</h2> ", "sSearchPlaceholder": "Enter text here to search" };
+                    $scope.searchOpt = { "sSearch": "<h2 class='lLabel'>Search</h2> ", "sSearchPlaceholder": "Enter text here to search" };
                     $scope.tools = response.data;
                     $scope.$watch(function () {
                         return $location.path();
