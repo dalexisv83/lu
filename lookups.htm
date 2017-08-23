@@ -21,7 +21,7 @@
     <![endif]-->
 </head>
 <body>
-
+<div class="loader" style="display:none"><div></div></div>
 <div id="include" ng-include="'views/main.htm?@@BUSTER@@'">Loading&hellip;</div>
 
 <footer class="bg--dark-grey sticky_footer">
@@ -98,6 +98,15 @@
                 }
             });
         }
+        function jqUpdateSize(){
+                    // Get the dimensions of the viewport
+                    var jqwidth = $(window).width();
+                    var jqheight = $(window).height();
+                    $('.loader').css({"width":jqwidth,"height":jqheight});
+                    $('.loader div').css({"left":jqwidth/2-65,"top":jqheight/2-65});
+                };
+        $(document).ready(jqUpdateSize);    
+        $(window).resize(jqUpdateSize);          
     </script>
 </body>
 

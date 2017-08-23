@@ -22,6 +22,21 @@ body {
     background-color: #ddd !important;
 }
 
+.loader{
+    z-index: 999;
+    position: absolute;    
+    background-color: #bbb;
+    opacity: 0.5;
+}
+.loader div{
+    height: 128px;
+    width: 128px;    
+    background-image: url(../img/marvin-spinner.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index:1000;
+}
+
 h2 {
   font-size: 1.5em !important;
   color: #E97400 !important;
