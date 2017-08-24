@@ -335,8 +335,12 @@ div[ng-controller=GiftCardCtrl] .dataTables_filter {
 }
 
 .dataTables_filter input[type="search"] {
-    width: calc(100% - 116px);
+    width: calc(100% - 105px);
+    padding: 0 10px;
     margin-left: 0 !important;
+	-webkit-appearance: none !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
 }
 
 .dataTables_filter {
