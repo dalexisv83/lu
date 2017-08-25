@@ -18,7 +18,7 @@
                     DTColumnBuilder.newColumn('ErrorMessage').withTitle('Error Message'),
                     DTColumnBuilder.newColumn('AacTroubleshooting').withTitle('MyCSP Troubleshooting').renderWith(function (data, type, full) {
                         if (full['AacURL']) {
-                            return '<a href="' + full['AacURL'] + '" target="_blank">' + full['AacTroubleshooting'] + '</a>';
+                            return '<a href="https://www.e-access.att.com/mycsp/mycspportal/proxyServlet?content_matrix_id=' + full['AacURL'] + '" target="_blank">' + full['AacTroubleshooting'] + '</a>';
                         } else if (full['AacTroubleshooting']) {
                             return full['AacTroubleshooting'].replace(/\\\//g, "/");
                         } else {
