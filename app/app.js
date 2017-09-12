@@ -1,7 +1,7 @@
 /*jslint unparam: true*/
 (function(angular) {
     'use strict';
-    angular.module('lookups', ['ngSanitize', 'datatables', 'ngResource', 'lookups.constants'])
+    angular.module('lookups', ['ngSanitize', 'datatables', 'ngResource', 'constants.urls'])
         .config(['$httpProvider', function ($httpProvider) {
             cache: true
         }])
@@ -22,11 +22,3 @@ app.directive("ngWindowPie", ['$timeout', function ($timeout) {
 	}
     };   
 }]);
-
-(function (angular) {
-    'use strict';
-    angular.module('lookups.constants', [
-        'constants.urls'
-    ]);
-}(window.angular));
-/*jslint unparam: false*/
