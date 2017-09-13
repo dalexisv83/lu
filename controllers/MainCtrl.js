@@ -28,7 +28,7 @@
                     $scope.goHere = function (here) {
                         $location.path(here);
                     }
-                    $scope.searchOpt = { "sSearch": "<h2 class='lLabel'>Search</h2> ", "sSearchPlaceholder": "Enter text here to search" };
+                    $scope.searchOpt = { "sSearch": "<h2 class='lLabel'>Search</h2> ", "sSearchPlaceholder": "Enter text here to search the table below" };
                     $scope.tools = response.data;
                     $scope.$watch(function () {
                         return $location.path();
@@ -40,6 +40,7 @@
                     $scope.$watch('tool', function () {
                         if ($scope.tool) {
                             $location.path($scope.tool.URL);
+                            jQuery( ".showhide" ).addClass("closed").removeClass("opened");                             
                         }
                     });
                 }

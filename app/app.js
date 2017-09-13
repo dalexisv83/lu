@@ -15,12 +15,33 @@ var app = angular.module('lookups');
 app.directive("ngWindowPie", ['$timeout', function ($timeout) {
     'use strict';
     return function (scope, element, attrs) {
-	if (window.PIE) {
-	    $timeout(function () {
-		window.PIE.attach(angular.element(element)[0]);	      
-	    });
-	}
+    if (window.PIE) {
+        $timeout(function () {
+        window.PIE.attach(angular.element(element)[0]);       
+        });
+    }
     };   
+}]).directive('showhide', ['$timeout', function ($timeout) {
+    return {
+        restrict: 'C',
+        link: function (scope, element, attrs) {
+            $timeout(function () {
+                opened = true;
+                element.on('click', '.show', function(){
+                    toggle()
+                })
+
+                function toggle() {
+                    if(element.hasClass('closed'))
+                        opened = false;
+                    opened = !opened;
+                    element.removeClass(opened ? 'closed' : 'opened');
+                    element.addClass(opened ? 'opened' : 'closed');
+                }
+                toggle();
+            })            
+        }
+    }
 }]);
 
 (function (angular) {

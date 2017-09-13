@@ -11,8 +11,7 @@ html {
 }
 
 body {
-    font-size: 95%;
-    font-family: 'Franklin Gothic', sans-serif;
+    font-size: .8em;
     color: #333;
     line-height: 1.55;
     overflow: auto;
@@ -31,7 +30,7 @@ body {
 .loader div{
     height: 128px;
     width: 128px;    
-    background-image: url(../img/marvin-spinner.gif);
+    background-image: url(../../../common_assets/img/marvin-spinner.gif);
     background-repeat: no-repeat;
     position: absolute;
     z-index:1000;
@@ -338,7 +337,7 @@ div[ng-controller=GiftCardCtrl] .dataTables_filter {
     width: calc(100% - 105px);
     padding: 0 10px;
     margin-left: 0 !important;
-	-webkit-appearance: none !important;
+    -webkit-appearance: none !important;
     -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important;
 }
@@ -1067,3 +1066,51 @@ input.ng-valid.zipinp {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     background-color: #009EDB;
 }
+
+table.dataTable thead .sorting {background-image: url(../img/sort_both.png);}
+
+[id^=DataTables_Table] select{
+    border: 1px solid #a9a9a9 !important;
+    border-radius: 0 !important;
+}
+
+.btn-link.ngTruncateToggleText {
+    color: #009EDB;
+    cursor: pointer;
+}
+[id^=DataTables_Table] th:not(:first-of-type){
+    border-left:2px solid white;
+}
+
+.showhide {
+    display: inline-block;
+    width: 90%;
+    padding: 5px 2%;
+}
+
+.showhide > ol:first-child{
+    padding-left: 10px;
+}
+
+.showhide > .show {
+    padding: .3em 0;
+    width: 20%;
+    text-align: left;
+    position: relative;
+    cursor:pointer;    
+    color: #009EDB;
+    z-index:10;
+}
+.showhide.opened  .more {
+    display: list-item;
+}
+.showhide.closed  .more {
+    display: none;
+}
+.showhide.closed > .show a:after {
+    content:'More...';
+}
+.showhide.opened > .show a:after {
+    content:'Less...';
+}
+.toolText ol li ol li ol li a {position:relative;z-index:11;}
