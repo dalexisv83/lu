@@ -5,7 +5,7 @@
             function ($scope, $location, $http, pathFinder) {
                 $scope.disabled = true;
                 $scope.loadMain = function() {
-                    $http.jsonp('https://wiwauk4coldda09.itservices.sbc.com/toolupdater/web/api/DataLookup/mainctrl?callback=JSON_CALLBACK').then(function successCallback(response) {
+                    $http.jsonp(pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/mainctrl?callback=JSON_CALLBACK').then(function successCallback(response) {
                         $scope.init(response);
                     }, function errorCallback(response) {
                         throw new Error('Data request failed:\n' + JSON.stringify(response));
