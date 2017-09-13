@@ -10,7 +10,7 @@
                      </select>
                  </div>
                  <div class="grid__item portable--one-half desk--one-half">
-                     <div class="toolText showhide" ng-bind-html="tool.Text"></div>
+                     <div ng-class="resetLess" class="toolText showhide" ng-bind-html="tool.Text"></div>
                  </div>
              </div>
              <div height="100%" width="100%" ng-if="tool.URL" ng-include="'views/' + tool.URL + '.htm'"></div>            

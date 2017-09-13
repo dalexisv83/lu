@@ -32,6 +32,8 @@ app.directive("ngWindowPie", ['$timeout', function ($timeout) {
                 })
 
                 function toggle() {
+                    if(element.hasClass('closed'))
+                        opened = false;
                     opened = !opened;
                     element.removeClass(opened ? 'closed' : 'opened');
                     element.addClass(opened ? 'opened' : 'closed');
