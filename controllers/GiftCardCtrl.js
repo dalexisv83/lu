@@ -11,7 +11,6 @@
                         jsonpCallback: 'jsonCallback'
                     }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('deferRender', true).withOption('initComplete',function(){
                             jQuery( ".loader" ).css("display","none");
-                            jQuery( ".showhide" ).addClass("closed").removeClass("opened");                            
                         });
 
 
