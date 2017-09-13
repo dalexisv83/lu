@@ -1067,8 +1067,6 @@ input.ng-valid.zipinp {
     background-color: #009EDB;
 }
 
-table.dataTable thead .sorting {background-image: url(../img/sort_both.png);}
-
 [id^=DataTables_Table] select{
     border: 1px solid #a9a9a9 !important;
     border-radius: 0 !important;
