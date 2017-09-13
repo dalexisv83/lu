@@ -6,7 +6,7 @@
                 jQuery( ".loader" ).css("display","");                
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/dvrhistory',
+                        url: $scope.fullURL($scope.network, $scope.tool),
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
                     }).withPaginationType('full_numbers').withLanguage($scope.searchOpt).withOption('initComplete',function(){

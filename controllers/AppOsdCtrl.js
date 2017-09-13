@@ -6,7 +6,7 @@
                 jQuery( ".loader" ).css("display","");                
                 $scope.dtOptions = DTOptionsBuilder.newOptions()
                     .withOption('ajax', {
-                        url: pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/apposd',
+                        url: $scope.fullURL($scope.network, $scope.tool),
                         dataType: 'jsonp',
                         jsonpCallback: 'jsonCallback'
                     }).withLanguage($scope.searchOpt).withOption('initComplete',function(){

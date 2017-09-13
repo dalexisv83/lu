@@ -1,11 +1,24 @@
 (function (angular) {
     'use strict';
     angular.module('lookups')
-        .controller('MainCtrl', ['$scope', '$location', '$http', 'pathFinder',
-            function ($scope, $location, $http, pathFinder) {
+        .controller('MainCtrl', ['$scope', '$location', '$http', 'pathFinder', 'URLS',
+            function ($scope, $location, $http, pathFinder, URLS) {
                 $scope.disabled = true;
-                $scope.loadMain = function() {
-                    $http.jsonp(pathFinder.getApiNet($scope.network) + 'web/api/DataLookup/mainctrl?callback=JSON_CALLBACK').then(function successCallback(response) {
+                $scope.fullURL = function (net,tool) {
+                    var theURL;
+                    if (net == 'local') {
+                        theURL = 'assets/datasource/' + tool.Json + ".js";
+                    } else {
+                        theURL = pathFinder.getApiNet(net) + 'web/api/DataLookup/' + tool.Api;
+                    }
+                    return theURL;
+                };
+                $scope.loadMain = function () {
+                    var select = {
+                        "Api": "mainctrl?callback=JSON_CALLBACK",
+                        "Json": "mainctrl.js?callback=JSON_CALLBACK"
+                    };
+                    $http.jsonp($scope.fullURL($scope.network, select)).then(function successCallback(response) {
                         $scope.init(response);
                     }, function errorCallback(response) {
                         throw new Error('Data request failed:\n' + JSON.stringify(response));
@@ -35,14 +48,20 @@
                     $scope.network = 'test';
                     $scope.loadMain();
                 } else {
-                    $http.jsonp('https://intra3.web.att.com/toolupdater/Web/api/values/1?callback=JSON_CALLBACK').then(function successTest(response) {
+                $http.jsonp(URLS.API_INTRA + '/web/api/values/1?callback=JSON_CALLBACK').then(function successTest(response) {
                         $scope.disabled = false;
                         $scope.network = 'intra';
                         $scope.loadMain();
                     }, function errorTest(response) {
-                        $scope.disabled = false;
-                        $scope.network = 'extra';
-                        $scope.loadMain();
+                        $http.jsonp(URLS.API_EXTRA + '/web/api/values/1?callback=JSON_CALLBACK').then(function successTest(response) {
+                            $scope.disabled = false;
+                            $scope.network = 'extra';
+                            $scope.loadMain();
+                        }, function errorTest(response) {
+                            $scope.disabled = false;
+                            $scope.network = 'local';
+                            $scope.loadMain();
+                        });
                     });
                 }
             }
