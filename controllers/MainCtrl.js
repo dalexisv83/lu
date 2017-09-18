@@ -48,6 +48,10 @@
                     $scope.disabled = false;
                     $scope.network = 'test';
                     $scope.loadMain();
+                } else if ($location.host() == 'zlp09097.vci.att.com') {
+                    $scope.disabled = false;
+                    $scope.network = 'stage';
+                    $scope.loadMain();
                 } else {
                 $http.jsonp(URLS.API_INTRA + '/web/api/values/1?callback=JSON_CALLBACK').then(function successTest(response) {
                         $scope.disabled = false;
@@ -73,6 +77,10 @@
                 switch (net) {
                     case 'intra':
                         basePath = URLS.API_INTRA;
+                        break;
+
+                    case 'stage':
+                        basePath = URLS.API_STAGE;
                         break;
 
                     case 'extra':
