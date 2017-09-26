@@ -93,11 +93,13 @@ app.run(function ($rootScope) {
     $.fn.dataTable.ext.search.push(
         function (settings, searchData, index, rowData, counter) {
             if (settings.sTableId == $rootScope.giftId) {
-                if ($rootScope.giftCat && settings.oPreviousSearch.sSearch) {
-                    if (!rowData[$rootScope.giftCat]) {
+                if ($rootScope.giftCat) {
+                    if (!rowData[$rootScope.giftCat] || rowData[$rootScope.giftCat] == '') {
                         return false;
                     }
-                    return rowData[$rootScope.giftCat].toLowerCase().indexOf(settings.oPreviousSearch.sSearch.toLowerCase()) > -1 ? true : false;
+                    if (settings.oPreviousSearch.sSearch) {
+                        return rowData[$rootScope.giftCat].toLowerCase().indexOf(settings.oPreviousSearch.sSearch.toLowerCase()) > -1 ? true : false;
+                    }
                 }
             }
             return true;
