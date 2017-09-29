@@ -63,9 +63,11 @@
                             $scope.network = 'extra';
                             $scope.loadMain();
                         }, function errorTest(response) {
+                            $scope.errorMsg = "Unable to reach the data APIs.<br />Please contact support for this tool at <a href='mailto://g06292@att.com'>g06292@att.com</a>"
                             $scope.disabled = false;
-                            $scope.network = 'local';
-                            $scope.loadMain();
+                            //$scope.network = 'local';
+                            //$scope.loadMain();
+                            throw new Error(JSON.stringify(response));
                         });
                     });
                 }
